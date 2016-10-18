@@ -1,0 +1,76 @@
+<!--logs.wxml-->
+<view class="top-tab flex-wrp flex-tab">
+  <view class="toptab flex-item active">通知</view>
+  <view class="toptab flex-item">赞与感谢</view>
+  <view class="toptab flex-item">关注</view>
+</view>
+<view class="container notify withtab">
+  <view class="unread">
+    <text>0 条未读</text>
+    <image src="../../images/allread.png"></image>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+  <view class="notify-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/icon1.jpeg"></image>
+    </view>
+    <view class="notify-content flex-item">
+      <text class="notify-source">Rebecca  回答了问题</text>
+      <text class="notify-title">C#如何在不覆盖原有文件的情况下直接修改某一部分的内容？</text>
+    </view>
+  </view>
+
+</view>
