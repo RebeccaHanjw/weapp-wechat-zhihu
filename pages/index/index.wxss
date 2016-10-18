@@ -1,23 +1,40 @@
 /**index.wxss**/
 
-/*.container .search{*/
-  /*width: 730rpx;*/
-  /*padding: 10rpx;*/
-  /*background: #2A8CE5;*/
-/*}*/
-/*.container .search-input{*/
-  /*/!*padding: 15rpx;*!/*/
-  /*width: 680rpx;*/
-  /*background: #4EA3E7;*/
-/*}*/
+.container .search{
+  width: 735rpx;
+  height: 65rpx;
+  padding: 12.5rpx 0 12.5rpx 15rpx;
+  background: #2A8CE5;
+}
+.container .search-left{
+  flex: 8;
+  background: #4EA3E7;
+  text-align: left;
+}
+.container .search-left input{
+  display: inline-block;
+  height: 65rpx;
+  font-size: 26rpx;
+}
+.search-placeholder{
+  color: #8CCEFD;
+  line-height: 20rpx;
+}
+.container .search .search-left image{
+  display: inline-block;
+  width: 35rpx;
+  height: 35rpx;
+  padding: 15rpx 15rpx 15rpx 20rpx;
+}
+.container .search .search-right{
+  flex: 1;
+}
+.container .search .search-right image{
+  width: 45rpx;
+  height: 45rpx;
+  padding: 10rpx;
+}
 
-/*.container .search .search-icon{*/
-  /*width: 30rpx;*/
-  /*height: 30rpx;*/
-  /*background: url("../../images/search.png");*/
-/*}*/
-/*.container .search input{*/
-/*}*/
 .container{
   padding: 0;
   font-size: 14rpx;
