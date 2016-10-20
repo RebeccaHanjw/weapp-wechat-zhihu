@@ -1,6 +1,61 @@
 <!--answer.wxml-->
 <view class="container">
-  <view class="question">
-      <text>猫咪是怎样向你撒娇的？</text>
-  </view>
+    <view class="question">
+        <text class="question-title">为什么直接修改数组长度或设置数组项的索引时, Vue 不能检测到数组的变动？</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon8.jpg"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">Alex</text>
+                <text class="answerer-des">Alex 就是 Alex</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>数组的 length 属性重定义是可能的，但是会受到一般的重定义限制。（length 属性初始为 non-configurable，non-enumerable 以及 writable。对于一个内容不变的数组，改变其 length 属性的值或者使它变为 non-writable 是可能的。但是改变其可枚举性和可配置性或者当它是 non-writable 时尝试改变它的值或是可写性，这两者都是不允许的。）然而，并不是所有的浏览器都允许 Array.length 的重定义。</text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+        <text>数组的 length 属性重定义是可能的，但是会受到一般的重定义限制。（length 属性初始为 non-configurable，non-enumerable 以及 writable。对于一个内容不变的数组，改变其 length 属性的值或者使它变为 non-writable 是可能的。但是改变其可枚举性和可配置性或者当它是 non-writable 时尝试改变它的值或是可写性，这两者都是不允许的。）然而，并不是所有的浏览器都允许 Array.length 的重定义。</text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../images/good-bad.png"></image>
+            </view>
+            <view class="good-num">2.1k</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../images/flag.png"></image>
+                    <text>没有帮助</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>感谢</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>302</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
 </view>
+
