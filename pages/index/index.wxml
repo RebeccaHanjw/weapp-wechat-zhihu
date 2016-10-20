@@ -9,7 +9,7 @@
           <image src="../../images/lighting.png"></image>
       </view>
   </view>
-    <view class="feed-item">
+    <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
             <a class="" bindTap="">
                 <view class="avatar">
@@ -52,7 +52,7 @@
             </view>
         </view>
     </view>
-    <view class="feed-item">
+    <view bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
             <a class="" bindTap="">
                 <view class="avatar">
@@ -92,7 +92,7 @@
             </view>
         </view>
     </view>
-    <view class="feed-item">
+    <view bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
             <a class="" bindTap="">
                 <view class="avatar">
@@ -135,7 +135,7 @@
             </view>
         </view>
     </view>
-    <view class="feed-item">
+    <view bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
             <a class="" bindTap="">
                 <view class="avatar">

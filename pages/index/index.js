@@ -7,9 +7,9 @@ Page({
     userInfo: {}
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindItemTap: function() {
     wx.navigateTo({
-      url: '../more/more'
+      url: '../answer/answer'
     })
   },
   onLoad: function () {
