@@ -1,5 +1,6 @@
-//index.js
-//获取应用实例
+//answer.js
+var util = require('../../utils/util.js')
+
 var app = getApp()
 Page({
   data: {
@@ -10,11 +11,6 @@ Page({
   bindItemTap: function() {
     wx.navigateTo({
       url: '../answer/answer'
-    })
-  },
-  bindQueTap: function() {
-    wx.navigateTo({
-      url: '../question/question'
     })
   },
   onLoad: function () {
