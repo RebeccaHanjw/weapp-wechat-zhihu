@@ -11,7 +11,7 @@
   </view>
     <view class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>
@@ -54,7 +54,7 @@
     </view>
     <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>
@@ -97,7 +97,7 @@
     </view>
     <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>
@@ -140,7 +140,7 @@
     </view>
     <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>
@@ -183,7 +183,7 @@
     </view>
     <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>
@@ -226,7 +226,7 @@
     </view>
     <view  bindtap="bindItemTap" class="feed-item">
         <view class="feed-source">
-            <a class="" bindTap="">
+            <a class="" bindtap="">
                 <view class="avatar">
                     <image src="../../images/icon1.jpeg"></image>
                 </view>

@@ -8,6 +8,7 @@
   box-shadow: 0 2px 2px #bebebe;
   margin: 0 0 8rpx 0;
 }
+
 .toptab.active{
   color: #ffffff;
   border-bottom: solid 2px #ffffff;

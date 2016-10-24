@@ -2,13 +2,15 @@
 var util = require('../../utils/util.js')
 Page({
   data: {
-    logs: []
+    navTab: ["通知", "赞与感谢", "关注"],
+    currentNavtab: "0"
   },
   onLoad: function () {
+
+  },
+  switchTab: function(e){
     this.setData({
-      logs: (wx.getStorageSync('logs') || []).map(function (log) {
-        return util.formatTime(new Date(log))
-      })
-    })
+      currentNavtab: e.currentTarget.dataset.idx
+    });
   }
 })

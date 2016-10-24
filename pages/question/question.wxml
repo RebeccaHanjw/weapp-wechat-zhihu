@@ -54,7 +54,7 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
+                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你… </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
@@ -83,7 +83,7 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
+                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你… </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
@@ -112,7 +112,7 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
+                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你… </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
@@ -141,7 +141,7 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
+                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你… </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
@@ -158,6 +158,36 @@
                 </view>
             </view>
         </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>张大喵</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你… </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+
 
     </view>
 </view>
