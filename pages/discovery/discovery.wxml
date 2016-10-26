@@ -5,11 +5,16 @@
   </view>
 </view>
 
-<view class="container discovery withtab">
+<scroll-view scroll-y="true" class="container discovery withtab" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
   <view class="ctnt0" hidden="{{currentNavtab==0 ? '' : true}}">
-    <view class="activity">
-      <image src="../../images/24213.jpg" mode="aspectFill"></image>
-    </view>
+    <swiper class="activity" indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="155"/>
+        </swiper-item>
+      </block>
+    </swiper>
     <view class="feed-item">
       <view class="feed-source">
         <a class="" bindtap="">
@@ -143,4 +148,4 @@
 
 
 
-</view>
+</scroll-view>

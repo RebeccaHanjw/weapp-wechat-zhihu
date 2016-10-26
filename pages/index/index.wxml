@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="0" lower-threshold="0" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
   <view class="search flex-wrp">
       <view class="search-left flex-item">
           <image src="../../images/search.png"></image>
@@ -269,4 +269,4 @@
     </view>
 
 
-</view>
+</scroll-view>

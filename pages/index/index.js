@@ -1,10 +1,10 @@
 //index.js
-//获取应用实例
+
+var util = require('../../utils/util.js')
 var app = getApp()
 Page({
   data: {
-    motto: '知乎--微信小程序版',
-    userInfo: {}
+
   },
   //事件处理函数
   bindItemTap: function() {
@@ -28,7 +28,32 @@ Page({
       })
     })
   },
-  tapName: function(event){
-    console.log(event)
+  upper: function () {
+    //使用本地 fake 数据实现刷新效果
+    var feed = util.getData2();
+    console.log(feed);
+    console.log("upper");
+    wx.hideNavigationBarLoading()
+    wx.stopPullDownRefresh()
+  },
+  lower: function (e) {
+
+    console.log("lower")
+  },
+  scroll: function (e) {
+    //console.log("scroll")
+  },
+
+  //网络请求数据, 实现首页刷新
+  refresh: function(){
+    var index_api = '';
+    util.getData(index_api)
+        .then(function(data){
+          //this.setData({
+          //
+          //});
+          console.log(data);
+        });
   }
+
 })
