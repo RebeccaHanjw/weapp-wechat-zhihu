@@ -1,17 +1,17 @@
 <!--answer.wxml-->
 <view class="container">
     <view class="question">
-        <text class="question-title">为什么直接修改数组长度或设置数组项的索引时, Vue 不能检测到数组的变动？</text>
+        <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？</text>
     </view>
     <view class="answerer-wrp">
         <view class="bg-half"></view>
         <view class="answerer flex-wrp">
             <view class="avatar flex-item">
-                <image src="../../images/icon8.jpg"></image>
+                <image src="../../images/icon1.jpeg"></image>
             </view>
             <view class="answerer-info flex-item">
-                <text class="answerer-name">Alex</text>
-                <text class="answerer-des">Alex 就是 Alex</text>
+                <text class="answerer-name">Rebecca</text>
+                <text class="answerer-des">WEB前端*不靠谱天气预报员*想做代码小仙女</text>
             </view>
             <view class="follow flex-item">
                 <text>十 关注</text>
@@ -19,35 +19,33 @@
         </view>
     </view>
     <view class="answer-content">
-        <text>我：“晚上咱们吃什么啊？”
-            猿：“你想吃什么啊？”
-            我：“不造想不出来……”
-            猿：“哦那你想想吧。”
-            没接到指令，没法吃饭（手动再见）
+        <text>难道不明白纸质书更贵啊！！！
 
+            若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
 
-            我：“晚上吃什么啊？提点建议？”
-            猿：“你想吃什么啊？”
-            我：“不造啊问你嘛不是？”
-            猿：“吉野家？小肥羊？嘉和一品？必胜客？呷哺呷哺？……”（沿着街一家挨一家地念）
-            穷举法。手动再见。
+            另外，用kindle看小说的怎么真心不懂了。题主不看小说么？难道题主拿来看教科书还是技术文档？还是题主觉得小说就是小时代内样的？（对小时代没偏见，尊重多样性）
+
+            而且纸质书搬起来真心困难啊！当初毕业带不回来，忍痛卖了不少好桑心！
+
+            碎片时间阅读总不能天天背着一本书吧，那么占地方。
+
+            看到描述最后一段，感觉有骗答案的嫌疑
+
         </text>
         <image src="../../images/1444983318907-_DSC1826.jpg"></image>
         <text>
-            我：“晚上吃什么？不要念了我能看见！”
-            猿：“哦那你看看吃什么吧”
-            我：“……你就不能有一天说那啥啥好吃我带你去吃？”
-            猿：“啊？我不知道啊”
-            读取数据失败，未找到有关数据。（三天没吃饭了，已没力气再见）
+            难道不明白纸质书更贵啊！！！
 
+            若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
 
-            猿：“你确定订外卖？”
-            十分钟后
-            我：“你订外卖了吗？”
-            猿：“没啊你没让我订啊”
-            我：“不是刚说过嘛？！”
-            猿：“我问你确定吗你没回答我啊！”
-            消息框没有收到指令，程序无法运行 。
+            另外，用kindle看小说的怎么真心不懂了。题主不看小说么？难道题主拿来看教科书还是技术文档？还是题主觉得小说就是小时代内样的？（对小时代没偏见，尊重多样性）
+
+            而且纸质书搬起来真心困难啊！当初毕业带不回来，忍痛卖了不少好桑心！
+
+            碎片时间阅读总不能天天背着一本书吧，那么占地方。
+
+            看到描述最后一段，感觉有骗答案的嫌疑
+
         </text>
         <image src="../../images/1444983318907-_DSC1826.jpg"></image>
     </view>

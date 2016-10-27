@@ -13,7 +13,7 @@
     <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
         <view class="feed-item">
             <view class="feed-source">
-                <a class="" bindtap="">
+                <a class="">
                     <view class="avatar">
                         <image src="{{item.feed_source_img}}"></image>
                     </view>
@@ -23,11 +23,11 @@
             </view>
             <view class="feed-content">
                 <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
-                    <a class="question-link" bindtap="bindQueTap">
+                    <a class="question-link">
                         <text>{{item.question}}</text>
                     </a>
                 </view>
-                <view bindtap="bindItemTap" class="answer-body">
+                <view class="answer-body">
                     <view bindtap="bindItemTap">
                         <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
                     </view>

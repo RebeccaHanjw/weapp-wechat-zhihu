@@ -65,8 +65,9 @@
     font-size: 32rpx;
 }
 .answerer .answerer-info .answerer-des{
-    font-size: 26rpx;
-    color: #6d6d6d;
+    font-size: 20rpx;
+    color: #808080;
+    line-height: 28rpx;
 }
 .answerer .follow{
     flex: 2;
