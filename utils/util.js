@@ -20,7 +20,8 @@ module.exports = {
   formatTime: formatTime
 };
 
-var data_index = require('../data/data_index.js')
+var index = require('../data/data_index.js')
+var index_next = require('../data/data_index_next.js')
 
 function getData(url){
   return new Promise(function(resolve, reject){
@@ -43,12 +44,16 @@ function getData(url){
 }
 
 function getData2(){
-  return data_index.index;
+  return index.index;
 }
 
+function getNext(){
+  return index_next.next;
+}
 
 module.exports.getData = getData;
 module.exports.getData2 = getData2;
+module.exports.getNext = getNext;
 
 
 

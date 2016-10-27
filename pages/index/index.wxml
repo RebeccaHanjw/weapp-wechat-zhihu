@@ -1,272 +1,50 @@
 <!--index.wxml-->
-<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="0" lower-threshold="0" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
   <view class="search flex-wrp">
       <view class="search-left flex-item">
           <image src="../../images/search.png"></image>
           <input placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder"/>
       </view>
-      <view class="search-right flex-item">
+      <view class="search-right flex-item" bindtap="upper">
           <image src="../../images/lighting.png"></image>
       </view>
   </view>
-    <view class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link" bindtap="bindQueTap">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view bindtap="bindItemTap" class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
-    <view  bindtap="bindItemTap" class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
-    <view  bindtap="bindItemTap" class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
-    <view  bindtap="bindItemTap" class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
-    <view  bindtap="bindItemTap" class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
-    <view  bindtap="bindItemTap" class="feed-item">
-        <view class="feed-source">
-            <a class="" bindtap="">
-                <view class="avatar">
-                    <image src="../../images/icon1.jpeg"></image>
-                </view>
-                <text>小喵赞同了回答</text>
-            </a>
-            <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
-        </view>
-        <view class="feed-content">
-            <view class="question">
-                <a class="question-link">
-                    <text>和程序猿谈恋爱是一种怎样的体验？</text>
-                </a>
-            </view>
-            <view class="answer-body">
-                <view>
-                    <text class="answer-txt">我：“晚上咱们吃什么啊？” 猿：“你想吃什么啊？” 我：“不造想不出来……” 猿：“哦那你想想吧。” 没接到指令，没法吃饭（手动再见） 我：“晚上吃什么啊？提点建议？” 猿：“你想吃什么啊？” 我：“不造啊问你嘛不是？” 猿：“吉野家？… </text>
-                </view>
-                <view class="answer-actions">
-                    <view class="like dot">
-                        <a>3.9K 赞同 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <view class="comments dot">
-                        <a>254 评论 </a>
-                    </view>
-                    <!--<view class="follows dot" hidden="true">-->
-                        <!--<a>27 关注</a>-->
-                    <!--</view>-->
-                    <!--<view class="answers dot">-->
-                        <!--<a>27 回答</a>-->
-                    <!--</view>-->
-                    <view class="follow-it">
-                        <a>关注问题</a>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
 
-
+    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+        <view class="feed-item">
+            <view class="feed-source">
+                <a class="" bindtap="">
+                    <view class="avatar">
+                        <image src="{{item.feed_source_img}}"></image>
+                    </view>
+                    <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
+                </a>
+                <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+            </view>
+            <view class="feed-content">
+                <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
+                    <a class="question-link" bindtap="bindQueTap">
+                        <text>{{item.question}}</text>
+                    </a>
+                </view>
+                <view bindtap="bindItemTap" class="answer-body">
+                    <view bindtap="bindItemTap">
+                        <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
+                    </view>
+                    <view class="answer-actions" bindtap="bindItemTap">
+                        <view class="like dot">
+                            <a>{{item.good_num}} 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>{{item.comment_num}} 评论 </a>
+                        </view>
+                        <view class="follow-it">
+                            <a>关注问题</a>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </block>
 </scroll-view>
+
