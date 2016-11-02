@@ -60,6 +60,7 @@
     height: 50rpx;
     vertical-align: middle;
     padding: 18rpx 0;
+    font-size: 24rpx;
 }
 .question-item .que-follow .right{
     float: right;
@@ -80,6 +81,7 @@
 }
 .que-operate .flex-item{
     padding: 20rpx 0;
+    font-size: 26rpx;
 }
 .que-operate .invite{
     border-right: solid 2px #ebebeb;
