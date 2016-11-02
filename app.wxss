@@ -87,7 +87,7 @@
   vertical-align: middle;
   margin: 0 0 0 15rpx;
   color: #a0acac;
-  font-size: 16rpx;
+  font-size: 26rpx;
 }
 .container .feed-item .feed-source .item-more{
   display: inline-block;

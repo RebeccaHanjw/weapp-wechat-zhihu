@@ -31,7 +31,7 @@
 }
 .chat-item .chat-content .chat-source .lasttime{
   flex: 1;
-  font-size: 16rpx;
+  font-size: 22rpx;
   float: right;
   vertical-align: text-bottom;
 }

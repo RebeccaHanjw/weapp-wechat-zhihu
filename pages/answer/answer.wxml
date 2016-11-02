@@ -1,6 +1,6 @@
 <!--answer.wxml-->
 <view class="container">
-    <view class="question">
+    <view class="question" bindtap="toQuestion">
         <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？</text>
     </view>
     <view class="answerer-wrp">

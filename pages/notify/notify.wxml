@@ -74,10 +74,10 @@
       </view>
     </view>
   </view>
-  <view class="ctnt1" hidden="{{currentNavtab==1 ? '' : true}}">
+  <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
     <text>赞与感谢</text>
   </view>
-  <view class="ctnt2" hidden="{{currentNavtab==2 ? '' : true}}">
+  <view class="ctnt2 placehold" hidden="{{currentNavtab==2 ? '' : true}}">
     <text>关注</text>
   </view>
 </scroll-view>

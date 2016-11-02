@@ -8,7 +8,7 @@
 .unread text{
   display: inline-block;
   line-height: 60rpx;
-
+  font-size: 22rpx;
 }
 .unread image{
   display: inline-block;
@@ -47,4 +47,8 @@
   color: #AFAFAF;
   font-size: 30rpx;
   line-height: 34rpx;
+}
+.placehold{
+  padding: 80rpx 0;
+  font-size: 28rpx
 }

@@ -65,13 +65,14 @@
     font-size: 32rpx;
 }
 .answerer .answerer-info .answerer-des{
-    font-size: 20rpx;
+    font-size: 22rpx;
     color: #808080;
     line-height: 28rpx;
 }
 .answerer .follow{
     flex: 2;
     padding: 15rpx 0;
+    font-size: 22rpx;
 }
 .answerer .follow text{
     display: inline-block;

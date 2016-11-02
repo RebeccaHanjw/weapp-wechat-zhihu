@@ -25,3 +25,7 @@
   width: 750rpx;
   height: 375rpx;
 }
+.placehold{
+  font-size: 28rpx;
+  padding: 80rpx 0;
+}
