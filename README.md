@@ -1,5 +1,7 @@
 # weapp-wechat-zhihu
+
 微信中的知乎--微信小程序 demo // Zhihu in Wechat
+
 ![](images/v_index.png)
 
 ### description
@@ -23,16 +25,21 @@ git@github.com:RebeccaHanjw/weapp-wechat-zhihu.git
 下载安装Wechat DEV Tools, 并导入项目
 
 ### 演示
+
 首页下拉刷新等
+
 ![](images/index_scroll.gif)
 
 底部 tab 切换
+
 ![](images/bottom_tab.gif)
 
 顶部自定义 tab 切换
+
 ![](images/top_tab.gif)
 
 页面跳转
+
 ![](images/navigation.gif)
 
 
