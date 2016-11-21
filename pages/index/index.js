@@ -22,7 +22,7 @@ Page({
     console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
-    this.refresh();
+    this.getData();
   },
   upper: function () {
     wx.showNavigationBarLoading()
@@ -53,7 +53,7 @@ Page({
   },
 
   //使用本地 fake 数据实现刷新效果
-  refresh: function(){
+  getData: function(){
     var feed = util.getData2();
     console.log("loaddata");
     var feed_data = feed.data;
@@ -62,9 +62,36 @@ Page({
       feed_length: feed_data.length
     });
   },
+  refresh: function(){
+    wx.showToast({
+      title: '刷新中',
+      icon: 'loading',
+      duration: 3000
+    });
+    var feed = util.getData2();
+    console.log("loaddata");
+    var feed_data = feed.data;
+    this.setData({
+      feed:feed_data,
+      feed_length: feed_data.length
+    });
+    setTimeout(function(){
+      wx.showToast({
+        title: '刷新成功',
+        icon: 'success',
+        duration: 2000
+      })
+    },3000)
+
+  },
 
   //使用本地 fake 数据实现继续加载效果
   nextLoad: function(){
+    wx.showToast({
+      title: '加载中',
+      icon: 'loading',
+      duration: 4000
+    })
     var next = util.getNext();
     console.log("continueload");
     var next_data = next.data;
@@ -72,6 +99,13 @@ Page({
       feed: this.data.feed.concat(next_data),
       feed_length: this.data.feed_length + next_data.length
     });
+    setTimeout(function(){
+      wx.showToast({
+        title: '加载成功',
+        icon: 'success',
+        duration: 2000
+      })
+    },3000)
   }
 
 
