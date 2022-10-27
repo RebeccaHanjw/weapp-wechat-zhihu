@@ -12,7 +12,7 @@ var discovery= {
             "question_id": 1,
             "answer_id": 3,
             "feed_source_id": 23,
-            "feed_source_name": "Rebecca1",
+            "feed_source_name": "谢灵运",
             "feed_source_txt": "赞了回答1",
             "feed_source_img": "../../images/icon1.jpeg",
             "question": "选择 Kindle 而不是纸质书的原因是什么？",
